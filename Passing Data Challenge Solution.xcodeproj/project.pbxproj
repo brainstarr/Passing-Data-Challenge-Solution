@@ -14,6 +14,7 @@
 		0049DB9219DB6455002FDF6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0049DB9119DB6455002FDF6E /* Images.xcassets */; };
 		0049DB9519DB6455002FDF6E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0049DB9319DB6455002FDF6E /* LaunchScreen.xib */; };
 		0049DBA119DB6455002FDF6E /* Passing_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0049DBA019DB6455002FDF6E /* Passing_Data_Challenge_SolutionTests.m */; };
+		0049DBAC19DB6AB8002FDF6E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0049DBAB19DB6AB8002FDF6E /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		0049DB9A19DB6455002FDF6E /* Passing Data Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Passing Data Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0049DB9F19DB6455002FDF6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0049DBA019DB6455002FDF6E /* Passing_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Passing_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		0049DBAA19DB6AB8002FDF6E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		0049DBAB19DB6AB8002FDF6E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				0049DB8E19DB6455002FDF6E /* Main.storyboard */,
 				0049DB8B19DB6455002FDF6E /* ViewController.h */,
 				0049DB8C19DB6455002FDF6E /* ViewController.m */,
+				0049DBAA19DB6AB8002FDF6E /* DetailViewController.h */,
+				0049DBAB19DB6AB8002FDF6E /* DetailViewController.m */,
 				0049DB9119DB6455002FDF6E /* Images.xcassets */,
 				0049DB9319DB6455002FDF6E /* LaunchScreen.xib */,
 				0049DB8419DB6455002FDF6E /* Supporting Files */,
@@ -222,6 +227,7 @@
 				0049DB8D19DB6455002FDF6E /* ViewController.m in Sources */,
 				0049DB8A19DB6455002FDF6E /* AppDelegate.m in Sources */,
 				0049DB8719DB6455002FDF6E /* main.m in Sources */,
+				0049DBAC19DB6AB8002FDF6E /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -29,10 +29,10 @@
             </objects>
             <point key="canvasLocation" x="1056" y="136"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="llg-v1-cAj">
             <objects>
-                <viewController id="v34-A9-E2s" sceneMemberID="viewController">
+                <viewController id="v34-A9-E2s" customClass="DetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mhz-X1-HgH"/>
                         <viewControllerLayoutGuide type="bottom" id="PjX-Ug-36s"/>

@@ -19,6 +19,14 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([sender isKindOfClass:[UIBarButtonItem class]])
+    {
+        //NSLog(@"worked");
+    }
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
